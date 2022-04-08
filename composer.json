@@ -9,9 +9,10 @@
             "email": "dan.santos02311972@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
-        "php": ">=7.4"
+        "php": ">=7.4",
+        "twig/twig": "^3.0"
     },
     "autoload": {
         "psr-4": {
