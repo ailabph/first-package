@@ -1,0 +1,21 @@
+{
+    "name": "ailabph/first-package",
+    "description": "first package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dan Santos",
+            "email": "dan.santos02311972@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "HelloWorld\\": "src/"
+        }
+    }
+}
